@@ -1,4 +1,6 @@
 import React, { useState, useCallback } from 'react';
+import './index.css';
+
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
