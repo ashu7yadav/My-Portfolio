@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid-fraud" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#11110F" opacity="0.12" />
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="#F4F0E6" stroke="#11110F" stroke-width="6"/>
+  <rect width="800" height="450" fill="url(#dot-grid-fraud)" />
+  
+  <rect x="30" y="25" width="740" height="45" fill="#FF5964" stroke="#11110F" stroke-width="4"/>
+  <text x="50" y="54" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="16">SYSTEM // AI_FRAUD_DETECTION_ENGINE</text>
+  <rect x="670" y="35" width="80" height="24" fill="#11110F" />
+  <text x="710" y="51" fill="#C7FF2F" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">REALTIME</text>
+
+  <!-- Left Card: Risk Gauge & Transactions -->
+  <rect x="40" y="90" width="340" height="320" fill="#FFFFFF" stroke="#11110F" stroke-width="4" />
+  <rect x="40" y="90" width="340" height="35" fill="#11110F" />
+  <text x="60" y="113" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="13">TRANSACTION_STREAM</text>
+  
+  <!-- Anomaly Alert Card -->
+  <rect x="60" y="145" width="300" height="65" fill="#FF5964" fill-opacity="0.15" stroke="#FF5964" stroke-width="2"/>
+  <text x="75" y="170" fill="#11110F" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="13">TX #94821 - FLAG: ANOMALY</text>
+  <text x="75" y="193" fill="#5A5A55" font-family="'JetBrains Mono', monospace" font-size="11">Amount: $4,290.00 | Risk Score: 94/100</text>
+
+  <rect x="60" y="225" width="300" height="65" fill="#C7FF2F" fill-opacity="0.2" stroke="#11110F" stroke-width="2"/>
+  <text x="75" y="250" fill="#11110F" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="13">TX #94822 - VERIFIED OK</text>
+  <text x="75" y="273" fill="#5A5A55" font-family="'JetBrains Mono', monospace" font-size="11">Amount: $12.50 | Risk Score: 03/100</text>
+
+  <rect x="60" y="305" width="300" height="85" fill="#F4F0E6" stroke="#11110F" stroke-width="2"/>
+  <text x="75" y="330" fill="#11110F" font-family="'Space Grotesk', sans-serif" font-weight="bold" font-size="12">MODEL: SCIKIT-LEARN + FLASK</text>
+  <text x="75" y="350" fill="#5A5A55" font-family="'JetBrains Mono', monospace" font-size="10">Database: SQLite • Prediction History Logs</text>
+  <text x="75" y="372" fill="#4F63FF" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="11">Admin Dashboard • Interactive Risk Charts</text>
+
+  <!-- Right Card: Decision Visualizer -->
+  <rect x="410" y="90" width="350" height="320" fill="#FFFFFF" stroke="#11110F" stroke-width="4" />
+  <rect x="410" y="90" width="350" height="35" fill="#11110F" />
+  <text x="430" y="113" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="13">RISK_DISTRIBUTION_MAP</text>
+
+  <!-- Chart visualization -->
+  <path d="M440,360 L440,150 L730,150" fill="none" stroke="#11110F" stroke-width="2" />
+  <line x1="440" y1="360" x2="730" y2="360" stroke="#11110F" stroke-width="2" />
+  
+  <path d="M450,350 Q520,340 560,280 T640,350" fill="#C7FF2F" fill-opacity="0.3" stroke="#11110F" stroke-width="3" />
+  <path d="M620,350 Q660,200 700,350" fill="#FF5964" fill-opacity="0.4" stroke="#FF5964" stroke-width="3" />
+  
+  <line x1="610" y1="160" x2="610" y2="360" stroke="#11110F" stroke-width="2" stroke-dasharray="4,4" />
+  <rect x="580" y="160" width="60" height="20" fill="#11110F" />
+  <text x="610" y="174" fill="#C7FF2F" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">THRESHOLD</text>
+  
+  <text x="490" y="385" fill="#11110F" font-family="'JetBrains Mono', monospace" font-size="10">LEGITIMATE</text>
+  <text x="650" y="385" fill="#FF5964" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">FRAUD RISK</text>
+</svg>

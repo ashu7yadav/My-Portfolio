@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <pattern id="grid-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#11110F" opacity="0.15" />
+    </pattern>
+    <linearGradient id="grad-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C7FF2F" />
+      <stop offset="100%" stop-color="#4F63FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="700" fill="#F4F0E6" stroke="#11110F" stroke-width="8"/>
+  <rect width="600" height="700" fill="url(#grid-dots)" />
+
+  <!-- Abstract Tech Architecture Shapes -->
+  <g transform="translate(50, 40)">
+    <!-- Tech Frame -->
+    <rect x="10" y="10" width="480" height="540" fill="#FFFFFF" stroke="#11110F" stroke-width="5" />
+    
+    <!-- Top Bar inside frame -->
+    <rect x="10" y="10" width="480" height="40" fill="#11110F" />
+    <circle cx="35" cy="30" r="6" fill="#FF5964" />
+    <circle cx="55" cy="30" r="6" fill="#C7FF2F" />
+    <circle cx="75" cy="30" r="6" fill="#4F63FF" />
+    <text x="250" y="34" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">ASHUTOSH_YADAV // DEV_PROFILE</text>
+
+    <!-- Center Avatar Graphic -->
+    <g transform="translate(100, 100)">
+      <!-- Backdrop Circle -->
+      <circle cx="140" cy="140" r="110" fill="#C7FF2F" stroke="#11110F" stroke-width="4" />
+      
+      <!-- Developer Silhouette Vector -->
+      <!-- Head / Face Silhouette -->
+      <path d="M90,130 C90,85 110,60 140,60 C170,60 190,85 190,130 C190,150 180,170 170,180 L110,180 C100,170 90,150 90,130 Z" fill="#11110F" />
+      <!-- Glasses / Visor in Tech Blue -->
+      <rect x="105" y="110" width="30" height="15" rx="2" fill="#FFFFFF" stroke="#11110F" stroke-width="2" />
+      <rect x="145" y="110" width="30" height="15" rx="2" fill="#FFFFFF" stroke="#11110F" stroke-width="2" />
+      <line x1="135" y1="117" x2="145" y2="117" stroke="#11110F" stroke-width="3" />
+      
+      <!-- Shoulders / Hoodie Body -->
+      <path d="M50,250 C50,200 90,185 140,185 C190,185 230,200 230,250 L50,250 Z" fill="#11110F" />
+      
+      <!-- Tech Badge on Hoodie -->
+      <rect x="115" y="210" width="50" height="18" fill="#FF5964" stroke="#11110F" stroke-width="2" />
+      <text x="140" y="223" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="900" text-anchor="middle">AI / ML</text>
+    </g>
+
+    <!-- Technical Crosshairs and Metadata -->
+    <text x="30" y="470" fill="#11110F" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">PHOTO PLACEHOLDER</text>
+    <text x="30" y="495" fill="#5A5A55" font-family="'JetBrains Mono', monospace" font-size="11">REPLACE WITH: public/assets/profile.jpg</text>
+    <text x="30" y="520" fill="#5A5A55" font-family="'JetBrains Mono', monospace" font-size="11">DIMENSIONS: 600x700px (1:1.16)</text>
+    
+    <!-- Coordinate Stamp -->
+    <rect x="360" y="470" width="110" height="40" fill="#11110F" />
+    <text x="415" y="495" fill="#C7FF2F" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">26.8467° N</text>
+    <text x="415" y="505" fill="#C7FF2F" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">80.9462° E</text>
+  </g>
+
+  <!-- Neo-Brutalist Floating Badges -->
+  <g transform="translate(30, 600)">
+    <rect x="0" y="0" width="220" height="42" fill="#C7FF2F" stroke="#11110F" stroke-width="4" />
+    <text x="110" y="26" fill="#11110F" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="13" text-anchor="middle">B.TECH CSE (AI/ML)</text>
+  </g>
+  
+  <g transform="translate(380, 590)">
+    <rect x="0" y="0" width="170" height="42" fill="#FF5964" stroke="#11110F" stroke-width="4" />
+    <text x="85" y="26" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="13" text-anchor="middle">LUCKNOW, IN</text>
+  </g>
+</svg>
