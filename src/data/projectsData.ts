@@ -1,4 +1,5 @@
 import type { Project } from '../types';
+import { getAssetUrl } from '../utils/assets';
 
 export const projectsData: Project[] = [
   {
@@ -22,7 +23,8 @@ export const projectsData: Project[] = [
     techStack: ['Python', 'XGBoost', 'Scikit-learn', 'Pandas', 'NumPy', 'Flask', 'SQLite', 'Google Cloud Run'],
     githubUrl: 'https://github.com/ashu7yadav/loan-approval-prediction-system',
     liveDemoUrl: 'https://demo.example.com/loan-approval',
-    image: '/assets/projects/loan-approval.svg',
+    image: getAssetUrl('assets/projects/loan-approval.svg'),
+
     details: {
       problem:
         'Financial institutions face lengthy underwriting turnaround times and subjective decision-making when reviewing applicant credit eligibility across multiple interdependent financial parameters.',
@@ -80,7 +82,7 @@ export const projectsData: Project[] = [
     techStack: ['Flutter', 'Dart', 'Firebase', 'Cloud Firestore', 'OCR APIs', 'Math Engine', 'PDF Generation'],
     githubUrl: 'https://github.com/ashu7yadav/smart-calculator-ai',
     liveDemoUrl: 'https://demo.example.com/smart-calculator',
-    image: '/assets/projects/smart-calculator.svg',
+    image: getAssetUrl('assets/projects/smart-calculator.svg'),
     details: {
       problem:
         'Standard mobile calculators are limited to basic arithmetic and cannot parse handwritten math equations, visualize functions graphically, compute complex financial scenarios, or sync calculation histories across devices.',
@@ -136,7 +138,8 @@ export const projectsData: Project[] = [
     techStack: ['Python', 'Flask', 'Scikit-learn', 'SQLite', 'Pandas', 'NumPy', 'HTML5', 'CSS3', 'JavaScript'],
     githubUrl: 'https://github.com/ashu7yadav/ai-fraud-detection-system',
     liveDemoUrl: 'https://demo.example.com/fraud-detection',
-    image: '/assets/projects/fraud-detection.svg',
+    image: getAssetUrl('assets/projects/fraud-detection.svg'),
+
     details: {
       problem:
         'Financial institutions lose significant revenue to rapid fraudulent activity that bypasses static rule checks while causing high false-positive alerts on legitimate customer transactions.',

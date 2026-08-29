@@ -8,6 +8,8 @@ import type {
   SpokenLanguage,
 } from '../types';
 
+import { getAssetUrl } from '../utils/assets';
+
 export const personalInfo = {
   name: 'Ashutosh Yadav',
   firstName: 'Ashutosh',
@@ -31,9 +33,11 @@ export const personalInfo = {
   aboutBio:
     'I am a passionate B.Tech Computer Science Engineering student specializing in Artificial Intelligence & Machine Learning. I have hands-on experience in Machine Learning, Python, Flutter, and Full-Stack Development. I completed an AI & Machine Learning internship at MNNIT Allahabad, where I worked on real-world AI applications, including a Loan Approval Prediction System. My interests include Generative AI, Data Science, Mobile App Development, and Software Engineering.',
   resumeFileName: 'Ashutosh_Yadav_Resume.pdf',
-  resumeUrl: '/assets/Ashutosh_Yadav_Resume.pdf',
-  profileImage: '/assets/profile.jpg',
-  avatarSvg: '/assets/profile.svg',
+  resumeUrl: getAssetUrl('assets/Ashutosh_Yadav_Resume.pdf'),
+  profileImage: getAssetUrl('assets/profile.jpg'),
+  avatarSvg: getAssetUrl('assets/profile.svg'),
+  aboutImage: getAssetUrl('assets/about_portrait.jpg'),
+
   quickStats: [
     { label: 'DEGREE', value: 'B.Tech CSE (AI/ML)' },
     { label: 'GRADUATION', value: 'Expected 2028' },

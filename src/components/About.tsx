@@ -124,13 +124,14 @@ export const About: React.FC<AboutProps> = ({ onShowToast }) => {
                     {/* Image Container with Custom Filter & Frame */}
                     <div className="relative aspect-[3/4.2] overflow-hidden border-2 border-carbon bg-cream">
                       <img
-                        src="/assets/about_portrait.jpg"
+                        src={personalInfo.aboutImage || personalInfo.profileImage}
                         alt="Ashutosh Yadav - AI/ML Engineer in field"
                         className={`w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-300 ${getImageFilterClass()}`}
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/assets/profile.jpg';
+                          (e.target as HTMLImageElement).src = personalInfo.profileImage;
                         }}
                       />
+
 
                       {/* Technical Corner Target Crosshairs */}
                       <div className="absolute top-1.5 left-1.5 w-3 h-3 border-t-2 border-l-2 border-white pointer-events-none" />
